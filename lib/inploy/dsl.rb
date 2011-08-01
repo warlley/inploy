@@ -37,7 +37,7 @@ module Inploy
     end
 
     def rake(command)
-      run "rake #{command}"
+      run "bundle exec rake #{command}"
     end
 
     def rake_if_included(command)
